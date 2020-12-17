@@ -1,0 +1,65 @@
+API stands for
+Application programming interface
+
+a simple API called
+worldtimeapi.
+
+
+It gives the time of any specified
+location on the planet.
+http://worldtimeapi.org/api/timezone/Asia/Bharuch
+
+
+There is a lot of information such as
+week_number, offset, timezone, etc.
+There is something called ‘datetime’
+which tells us the date and the time
+with very high precision.
+
+This is called JSON data structure.
+JSON stands for Javascript Object
+Notation
+
+
+A JSON structure can hold multiple
+values inside { }. Each value is
+indexed by a name.
+
+For example, here the date and time
+value is indexed by the name
+"currentDateTime"
+
+
+We can call an API using fetch().
+fetch() sends a request to the API
+service and collects the response.
+
+call this API using fetch and
+collect the response in a variable.
+
+Javascript executes this
+synchronously. It means that it
+executes one line after the other. It
+will not wait for the ‘fetch API call’ to
+be completed before moving to the
+next line
+
+We do this
+by adding await before fetch(). It tells
+the computer to wait for the API call to
+be completed before moving to the
+next lines.
+
+
+asynchronous function - a function
+which waits for some lines to be
+completed before jumping to the next
+line.
+
+
+//Types of function
+
+synchronous
+asynchronous----->async
+
+
